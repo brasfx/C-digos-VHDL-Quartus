@@ -27,7 +27,8 @@ signal dado_registrado : std_logic_vector (3 downto 0);
 
 begin
 
-Q_out <= dado_registrado(3);  
+--Q_out <= dado_registrado(3);
+Q_out <= dado_registrado(0);
 	
 process(clock,reset) 
 
@@ -38,10 +39,10 @@ if (reset = '1') then     -- Pino de reset
 		 
 		 elsif rising_edge(clock) then  -- Semelhante ao (clock 'event and clock = '1')
 		 
-				dado_registrado(0) <= D_in;  
-				dado_registrado(1) <= dado_registrado(0);  
-				dado_registrado(2) <= dado_registrado(1);
-				dado_registrado(3) <= dado_registrado(2);			
+				dado_registrado(3) <= D_in;  
+				dado_registrado(2) <= dado_registrado(3);  
+				dado_registrado(1) <= dado_registrado(2);
+				dado_registrado(0) <= dado_registrado(1);			
 		
 		
 		end if;  
