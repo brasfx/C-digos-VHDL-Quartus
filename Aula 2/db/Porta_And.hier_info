@@ -1,0 +1,6 @@
+|Porta_And
+a => sinal_intermediario.IN0
+b => sinal_intermediario.IN1
+y << sinal_intermediario.DB_MAX_OUTPUT_PORT_TYPE
+
+

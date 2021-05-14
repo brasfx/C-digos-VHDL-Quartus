@@ -1,0 +1,47 @@
+|Circuito_C17
+entrada_1 => Porta_Nand:U0.a
+entrada_1 => Porta_Nand:U2.b
+entrada_2 => Porta_Nand:U0.b
+entrada_3 => Porta_Nand:U4.b
+entrada_4 => Porta_Nand:U1.b
+entrada_5 => Porta_Nand:U2.a
+Saida_x << Porta_Nand:U3.y
+Saida_y << Porta_Nand:U5.y
+
+
+|Circuito_C17|Porta_NAND:U0
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuito_C17|Porta_NAND:U2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuito_C17|Porta_NAND:U1
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuito_C17|Porta_NAND:U4
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuito_C17|Porta_NAND:U3
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuito_C17|Porta_NAND:U5
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

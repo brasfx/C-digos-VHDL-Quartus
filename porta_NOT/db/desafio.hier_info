@@ -1,0 +1,5 @@
+|porta_NOT
+a => saida.DATAIN
+saida << a.DB_MAX_OUTPUT_PORT_TYPE
+
+

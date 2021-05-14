@@ -1,0 +1,20 @@
+-- Porta NOT(inversor)
+
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity porta_NAND is 
+port( a,b: in std_logic; 
+		saida: out std_logic
+	);
+
+end porta_NOT;
+
+architecture comport_porta_NAND of porta_NAND is
+SIGNAL sig1: std_logic;
+
+begin 
+sig1<= (a NAND b);
+saida <= sig1;
+
+end comport_porta_NAND;

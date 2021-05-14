@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Aula 2/Porta_And.vhd
+source_file = 1, C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Aula 2/teste_bench_Porta_And.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Aula 2/db/Porta_And.cbx.xml
+design_name = Porta_And
+instance = comp, \y~output\, y~output, Porta_And, 1
+instance = comp, \b~input\, b~input, Porta_And, 1
+instance = comp, \a~input\, a~input, Porta_And, 1
+instance = comp, \sinal_intermediario~0\, sinal_intermediario~0, Porta_And, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, Porta_And, 1

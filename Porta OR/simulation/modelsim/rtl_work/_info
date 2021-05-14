@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR/simulation/modelsim
+Eporta_or
+Z1 w1620341995
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR/porta_OR.vhd
+Z5 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR/porta_OR.vhd
+l0
+L4 1
+V:JI_O<E0FRWo?CZ[XM82S0
+!s100 @XV3Z:8=mT0ee62U<WW3i3
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1620342546
+!i10b 1
+Z8 !s108 1620342546.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR/porta_OR.vhd|
+Z10 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR/porta_OR.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Acomport_porta_or
+R2
+R3
+DEx4 work 8 porta_or 0 22 :JI_O<E0FRWo?CZ[XM82S0
+!i122 0
+l12
+L10 7
+V:WFV8J=9m>mz5Ym63VWH02
+!s100 @^mZfgmMCl:n5S`g4jo7Q2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eteste_bench_porta_or
+Z13 w1620342071
+R2
+R3
+!i122 1
+R0
+Z14 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR/teste_bench_porta_OR.vhd
+Z15 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR/teste_bench_porta_OR.vhd
+l0
+L4 1
+VNCh5<z7Bc]JCO7TWeWAER1
+!s100 iCSgLfLfj]XR1GS`Sc@Rh2
+R6
+32
+Z16 !s110 1620343444
+!i10b 1
+Z17 !s108 1620343444.000000
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR/teste_bench_porta_OR.vhd|
+!s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR/teste_bench_porta_OR.vhd|
+!i113 1
+Z19 o-work work
+R12
+Afuncionamento_porta_or
+R2
+R3
+DEx4 work 20 teste_bench_porta_or 0 22 NCh5<z7Bc]JCO7TWeWAER1
+!i122 1
+l18
+L7 32
+Vd700E5b48<H=nm>41<XTn2
+!s100 OBQgUZBkY@END58iI5m@f0
+R6
+32
+R16
+!i10b 1
+R17
+R18
+Z20 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR/teste_bench_porta_OR.vhd|
+!i113 1
+R19
+R12

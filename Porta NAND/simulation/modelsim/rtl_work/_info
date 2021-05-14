@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/simulation/modelsim
+Eporta_nand
+Z1 w1620327719
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/porta_NAND.vhd
+Z5 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/porta_NAND.vhd
+l0
+L6 1
+VdB5YmX__jHfT3d6a5l7mc1
+!s100 50i]B:C4H`fzONIojh_6E0
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1620328280
+!i10b 1
+Z8 !s108 1620328280.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/porta_NAND.vhd|
+Z10 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/porta_NAND.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Acomport_porta_nand
+R2
+R3
+DEx4 work 10 porta_nand 0 22 dB5YmX__jHfT3d6a5l7mc1
+!i122 0
+l15
+L13 6
+VTY=^IOmVzoNj=Am3jBbJ>0
+!s100 W78d3oW:XAb0Kdh4FhF@40
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eteste_bench_porta_nand
+Z13 w1620328065
+R2
+R3
+!i122 1
+R0
+Z14 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/teste_bench_porta_NAND.vhd
+Z15 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/teste_bench_porta_NAND.vhd
+l0
+L4 1
+VD:W=CAY;U^Xk6acm`=FGX2
+!s100 H;jJ6Xi_WFRZBh]MiSEPF0
+R6
+32
+Z16 !s110 1620328307
+!i10b 1
+Z17 !s108 1620328307.000000
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/teste_bench_porta_NAND.vhd|
+!s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/teste_bench_porta_NAND.vhd|
+!i113 1
+Z19 o-work work
+R12
+Afuncionamento_teste_bench
+R2
+R3
+DEx4 work 22 teste_bench_porta_nand 0 22 D:W=CAY;U^Xk6acm`=FGX2
+!i122 1
+l18
+L7 36
+Vl]1=>aGMDYzczJPNk4Rad3
+!s100 g[44NZJGB;PUdIk82MJ4;0
+R6
+32
+R16
+!i10b 1
+R17
+R18
+Z20 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/teste_bench_porta_NAND.vhd|
+!i113 1
+R19
+R12

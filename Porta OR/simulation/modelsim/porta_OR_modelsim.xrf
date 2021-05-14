@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR/porta_OR.vhd
+source_file = 1, C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR/teste_bench_porta_OR.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR/db/porta_OR.cbx.xml
+design_name = porta_OR
+instance = comp, \saida~output\, saida~output, porta_OR, 1
+instance = comp, \b~input\, b~input, porta_OR, 1
+instance = comp, \a~input\, a~input, porta_OR, 1
+instance = comp, \saida~0\, saida~0, porta_OR, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, porta_OR, 1

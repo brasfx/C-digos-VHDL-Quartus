@@ -1,0 +1,13 @@
+|circuit_example
+m => sig1.IN0
+m => sig2.IN0
+m => sig3.IN0
+n => sig1.IN1
+n => sig3.IN1
+n => sig2.IN1
+q => sig1.IN1
+q => sig2.IN1
+q => sig3.IN1
+x <= x.DB_MAX_OUTPUT_PORT_TYPE
+
+

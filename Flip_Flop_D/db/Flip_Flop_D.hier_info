@@ -1,0 +1,11 @@
+|Flip_Flop_Serie
+clock => dado_registrado[0].CLK
+clock => dado_registrado[1].CLK
+clock => dado_registrado[2].CLK
+reset => dado_registrado[0].ACLR
+reset => dado_registrado[1].ACLR
+reset => dado_registrado[2].ACLR
+D => dado_registrado[0].DATAIN
+Q <= dado_registrado[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

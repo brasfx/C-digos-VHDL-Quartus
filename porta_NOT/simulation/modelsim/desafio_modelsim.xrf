@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Desafio/porta_NOT.vhd
+source_file = 1, C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Desafio/teste_bench_porta_NOT.vhd
+source_file = 1, C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Desafio/porta_NAND.vhd
+source_file = 1, C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Desafio/teste_bench_porta_NAND.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Desafio/db/desafio.cbx.xml
+design_name = porta_NOT
+instance = comp, \saida~output\, saida~output, porta_NOT, 1
+instance = comp, \a~input\, a~input, porta_NOT, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, porta_NOT, 1

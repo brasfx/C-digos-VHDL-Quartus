@@ -1,0 +1,57 @@
+# Reading pref.tcl
+# do Flip_Flop_D_Serie_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D_reset/Flip_Flop_D_Serie.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:15:42 on May 12,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D_reset/Flip_Flop_D_Serie.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Flip_Flop_D_Serie
+# -- Compiling architecture RTL of Flip_Flop_D_Serie
+# End time: 22:15:42 on May 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work {C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D_reset/tb_Flip_Flop_D_Serie.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:16:16 on May 12,2021
+# vcom -reportprogress 300 -work work C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D_reset/tb_Flip_Flop_D_Serie.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Flip_Flop_D_Serie
+# -- Compiling architecture tb of tb_Flip_Flop_D_Serie
+# -- Loading entity Flip_Flop_D_Serie
+# End time: 22:16:16 on May 12,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.tb_flip_flop_d_serie
+# vsim -gui -l msim_transcript work.tb_flip_flop_d_serie 
+# Start time: 22:16:26 on May 12,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_flip_flop_d_serie(tb)
+# Loading work.flip_flop_d_serie(rtl)
+add wave -position insertpoint  \
+sim:/tb_flip_flop_d_serie/clock_tb \
+sim:/tb_flip_flop_d_serie/reset_tb \
+sim:/tb_flip_flop_d_serie/D_tb \
+sim:/tb_flip_flop_d_serie/Q_tb \
+sim:/tb_flip_flop_d_serie/Clk
+run
+run
+run
+run
+run
+# End time: 22:25:15 on May 12,2021, Elapsed time: 0:08:49
+# Errors: 0, Warnings: 0

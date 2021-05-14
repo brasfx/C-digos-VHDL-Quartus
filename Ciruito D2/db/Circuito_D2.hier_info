@@ -1,0 +1,39 @@
+|Circuito_D2
+D_in => FF_D_Serie:C1.D_in
+Clock => FF_D_Serie:C1.clock
+Reset => FF_D_Serie:C1.reset
+A => porta_NAND:C2.a
+B => porta_NAND:C2.b
+Out_x << porta_OR:C4.saida
+
+
+|Circuito_D2|FF_D_Serie:C1
+D_in => dado_registrado[0].DATAIN
+clock => dado_registrado[0].CLK
+clock => dado_registrado[1].CLK
+clock => dado_registrado[2].CLK
+clock => dado_registrado[3].CLK
+reset => dado_registrado[0].ACLR
+reset => dado_registrado[1].ACLR
+reset => dado_registrado[2].ACLR
+reset => dado_registrado[3].ACLR
+Q_out <= dado_registrado[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuito_D2|porta_NAND:C2
+a => x1.IN0
+b => x1.IN1
+x1 <= x1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuito_D2|porta_NOT:C3
+a => x2.DATAIN
+x2 <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuito_D2|porta_OR:C4
+a => saida.IN0
+b => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

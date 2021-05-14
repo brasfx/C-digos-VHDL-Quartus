@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/simulation/modelsim
+Eflip_flop_d
+Z1 w1620849457
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/Flip_Flop_D.vhd
+Z5 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/Flip_Flop_D.vhd
+l0
+L4 1
+VAFW=KSdb]SiZAgS?5Wai^2
+!s100 XmKJoH9UUE3YVUJSR17<E3
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1620849514
+!i10b 1
+Z8 !s108 1620849514.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/Flip_Flop_D.vhd|
+Z10 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/Flip_Flop_D.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Acomportamento_flip_flop_d
+R2
+R3
+DEx4 work 11 flip_flop_d 0 22 AFW=KSdb]SiZAgS?5Wai^2
+!i122 0
+l14
+L12 17
+VFJ^3InNMQ3^lE?;K?5MDz1
+!s100 =Xg3Nk^>[UV32dBbk[a>a2
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eflip_flop_serie
+Z13 w1620848250
+R2
+R3
+!i122 1
+R0
+Z14 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/Flip_Flop_Serie.vhd
+Z15 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/Flip_Flop_Serie.vhd
+l0
+L7 1
+VojGEY>bQM66l>@o]1S<cz1
+!s100 lHDARSJm3iOFjcg>F3lSn3
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/Flip_Flop_Serie.vhd|
+Z17 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/Flip_Flop_Serie.vhd|
+!i113 1
+R11
+R12
+Acomportamento_ff_serie
+R2
+R3
+DEx4 work 15 flip_flop_serie 0 22 ojGEY>bQM66l>@o]1S<cz1
+!i122 1
+l29
+L17 24
+V]GHa0omBY@ka3Lke:Qd131
+!s100 F_3OJkeIF1=jz2_lYXOjQ0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Eteste_bench_ff_serie
+Z18 w1620849300
+R2
+R3
+!i122 2
+R0
+Z19 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/teste_bench_FF_Serie.vhd
+Z20 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/teste_bench_FF_Serie.vhd
+l0
+L6 1
+V[1eg8iV0kc`UU[:67RA6`0
+!s100 Ez2f4mJ3<L:@@?gOeVif=2
+R6
+32
+Z21 !s110 1620849546
+!i10b 1
+Z22 !s108 1620849545.000000
+Z23 !s90 -reportprogress|300|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/teste_bench_FF_Serie.vhd|
+!s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/teste_bench_FF_Serie.vhd|
+!i113 1
+Z24 o-work work
+R12
+Afuncionamento_ff_serie
+R2
+R3
+DEx4 work 20 teste_bench_ff_serie 0 22 [1eg8iV0kc`UU[:67RA6`0
+!i122 2
+l26
+L12 68
+V3dbo_=:fjih?4HECkjX[72
+!s100 [OcPA>Mkff4e9<67zXPg:3
+R6
+32
+R21
+!i10b 1
+R22
+R23
+Z25 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Flip_Flop_D/teste_bench_FF_Serie.vhd|
+!i113 1
+R24
+R12

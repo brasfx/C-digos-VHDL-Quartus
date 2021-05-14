@@ -1,0 +1,7 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity circuit_example
+port( M,N,Q: in std_logic;
+		X: out std_logic
+);

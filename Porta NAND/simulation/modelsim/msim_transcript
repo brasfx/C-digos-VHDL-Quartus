@@ -1,0 +1,54 @@
+# Reading pref.tcl
+# do porta_NAND_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/porta_NAND.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:11:20 on May 06,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/porta_NAND.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity porta_NAND
+# -- Compiling architecture comport_porta_NAND of porta_NAND
+# End time: 16:11:20 on May 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work {C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/teste_bench_porta_NAND.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:11:47 on May 06,2021
+# vcom -reportprogress 300 -work work C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta NAND/teste_bench_porta_NAND.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity teste_bench_porta_NAND
+# -- Compiling architecture funcionamento_teste_bench of teste_bench_porta_NAND
+# End time: 16:11:47 on May 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.teste_bench_porta_nand
+# vsim -gui -l msim_transcript work.teste_bench_porta_nand 
+# Start time: 16:12:01 on May 06,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.teste_bench_porta_nand(funcionamento_teste_bench)
+# Loading work.porta_nand(comport_porta_nand)
+add wave -position insertpoint  \
+sim:/teste_bench_porta_nand/a_tb \
+sim:/teste_bench_porta_nand/b_tb \
+sim:/teste_bench_porta_nand/saida_tb
+run
+run
+run
+run
+run
+# End time: 16:28:07 on May 06,2021, Elapsed time: 0:16:06
+# Errors: 0, Warnings: 0

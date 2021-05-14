@@ -1,0 +1,71 @@
+|circuito_C10
+g1 => porta_NAND:U0.a
+g2 => porta_NAND:U0.b
+g3 => porta_NAND:U1.a
+g4 => porta_NAND:U1.b
+g5 => porta_NOT:U2.a
+g6 => porta_AND:U5.a
+g7 => porta_AND:U5.b
+g7 => porta_AND:U6.a
+g8 => porta_NOT:U3.a
+g9 << porta_OR:U9.saida
+
+
+|circuito_C10|porta_NAND:U0
+a => saida.IN0
+b => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_C10|porta_NAND:U1
+a => saida.IN0
+b => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_C10|porta_NOT:U2
+a => saida.DATAIN
+saida <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_C10|porta_NOT:U3
+a => saida.DATAIN
+saida <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_C10|porta_NAND:U4
+a => saida.IN0
+b => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_C10|porta_AND:U5
+a => saida.IN0
+b => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_C10|porta_AND:U6
+a => saida.IN0
+b => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_C10|porta_NAND:U7
+a => saida.IN0
+b => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_C10|porta_AND:U8
+a => saida.IN0
+b => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuito_C10|porta_OR:U9
+a => saida.IN0
+b => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

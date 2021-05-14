@@ -1,0 +1,7 @@
+|porta_OR_3X1
+w => z.IN0
+x => z.IN1
+y => z.IN1
+z << z.DB_MAX_OUTPUT_PORT_TYPE
+
+

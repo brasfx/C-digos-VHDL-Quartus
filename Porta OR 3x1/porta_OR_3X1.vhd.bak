@@ -1,0 +1,16 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity porta_OR is
+port( w,x,y: in std_logic;
+		z: out std_logic
+	);
+end porta_OR;
+
+architecture comport_porta_OR of porta_OR is
+
+begin 
+
+z <= a OR b or c;
+
+end comport_porta_OR;

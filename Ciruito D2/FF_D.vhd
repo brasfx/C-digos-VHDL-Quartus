@@ -1,0 +1,26 @@
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity FF_D is 
+
+port( D,clock: in std_logic;
+		Q: out std_logic
+);
+
+end FF_D;
+
+
+architecture comportamento_FF_D of FF_D is 
+
+begin 
+
+process (clock,D)
+
+	begin 
+	if  clock = '1' AND clock 'event then
+		Q <= D;
+	end if;
+	
+end process;
+
+end comportamento_FF_D;

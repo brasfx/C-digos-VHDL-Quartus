@@ -1,0 +1,112 @@
+# Reading pref.tcl
+# do circuito_C10_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito C10/porta_AND.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:27 on May 07,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito C10/porta_AND.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity porta_AND
+# -- Compiling architecture comport_porta_AND of porta_AND
+# End time: 15:29:27 on May 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito C10/porta_NAND.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:27 on May 07,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito C10/porta_NAND.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity porta_NAND
+# -- Compiling architecture comport_porta_NAND of porta_NAND
+# End time: 15:29:27 on May 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito C10/porta_OR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:27 on May 07,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito C10/porta_OR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity porta_OR
+# -- Compiling architecture comport_porta_OR of porta_OR
+# End time: 15:29:28 on May 07,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito C10/porta_NOT.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:28 on May 07,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito C10/porta_NOT.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity porta_NOT
+# -- Compiling architecture inversor of porta_NOT
+# End time: 15:29:28 on May 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito C10/circuito_C10.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:28 on May 07,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito C10/circuito_C10.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity circuito_C10
+# -- Compiling architecture arch_C10 of circuito_C10
+# End time: 15:29:28 on May 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work {C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito C10/teste_bench_circuito_C10.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:48 on May 07,2021
+# vcom -reportprogress 300 -work work C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito C10/teste_bench_circuito_C10.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test_bench_circuito_C10
+# -- Compiling architecture funcionamento_test_bench of test_bench_circuito_C10
+# End time: 15:29:48 on May 07,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.test_bench_circuito_c10
+# vsim -gui -l msim_transcript work.test_bench_circuito_c10 
+# Start time: 15:30:01 on May 07,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test_bench_circuito_c10(funcionamento_test_bench)
+# Loading work.circuito_c10(arch_c10)
+# Loading work.porta_nand(comport_porta_nand)
+# Loading work.porta_not(inversor)
+# Loading work.porta_and(comport_porta_and)
+# Loading work.porta_or(comport_porta_or)
+add wave -position insertpoint  \
+sim:/test_bench_circuito_c10/g1_tb \
+sim:/test_bench_circuito_c10/g2_tb \
+sim:/test_bench_circuito_c10/g3_tb \
+sim:/test_bench_circuito_c10/g4_tb \
+sim:/test_bench_circuito_c10/g5_tb \
+sim:/test_bench_circuito_c10/g6_tb \
+sim:/test_bench_circuito_c10/g7_tb \
+sim:/test_bench_circuito_c10/g8_tb \
+sim:/test_bench_circuito_c10/g9_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 15:50:50 on May 07,2021, Elapsed time: 0:20:49
+# Errors: 0, Warnings: 0

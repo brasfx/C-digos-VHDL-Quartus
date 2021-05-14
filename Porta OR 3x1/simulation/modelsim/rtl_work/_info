@@ -1,0 +1,93 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR 3x1/simulation/modelsim
+Eporta_or_3x1
+Z1 w1620344488
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR 3x1/porta_OR_3X1.vhd
+Z5 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR 3x1/porta_OR_3X1.vhd
+l0
+L4 1
+Vab8>L^i_P`>`5N===Jj5a1
+!s100 dGXN;:<8hR=KG5LndBdbP0
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1620348936
+!i10b 1
+Z8 !s108 1620348935.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR 3x1/porta_OR_3X1.vhd|
+Z10 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR 3x1/porta_OR_3X1.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Acomport_porta_or_3x1
+R2
+R3
+DEx4 work 12 porta_or_3x1 0 22 ab8>L^i_P`>`5N===Jj5a1
+!i122 0
+l12
+L10 7
+V;R?:FHJYB4Y=[<Q:D65a61
+!s100 gQ[IUGaKcJO9n;<MGbVl03
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eteste_bench_porta_or_3x1
+Z13 w1620345648
+R2
+R3
+!i122 1
+R0
+Z14 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR 3x1/teste_bench_porta_OR_3X1.vhd
+Z15 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR 3x1/teste_bench_porta_OR_3X1.vhd
+l0
+L4 1
+VG8adDP8?XRcK`;39Z5T^h3
+!s100 coYNG]98j35DSm>9JP4;e1
+R6
+32
+Z16 !s110 1620348960
+!i10b 1
+Z17 !s108 1620348960.000000
+Z18 !s90 -reportprogress|300|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR 3x1/teste_bench_porta_OR_3X1.vhd|
+!s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR 3x1/teste_bench_porta_OR_3X1.vhd|
+!i113 1
+Z19 o-work work
+R12
+Afuncionamento_porta_or_3x1
+R2
+R3
+DEx4 work 24 teste_bench_porta_or_3x1 0 22 G8adDP8?XRcK`;39Z5T^h3
+!i122 1
+l19
+L7 53
+VD0anD@KBi;Pk@d][c0S[L2
+!s100 TF@Y3Mm4lD`7nU6DfN@?;3
+R6
+32
+R16
+!i10b 1
+R17
+R18
+Z20 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Porta OR 3x1/teste_bench_porta_OR_3X1.vhd|
+!i113 1
+R19
+R12
