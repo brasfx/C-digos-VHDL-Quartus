@@ -1,0 +1,298 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/simulation/modelsim
+Ecircuito_d2
+Z1 w1621177096
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/Circuito_D2.vhd
+Z5 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/Circuito_D2.vhd
+l0
+L4 1
+V?BQeX=U7B?ZgdjeM6fT313
+!s100 Eb5l_ZVEcTaSV>SgM7UjH2
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1621179089
+!i10b 1
+Z8 !s108 1621179088.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/Circuito_D2.vhd|
+Z10 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/Circuito_D2.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Acomportamento_circuto_d2
+R2
+R3
+DEx4 work 11 circuito_d2 0 22 ?BQeX=U7B?ZgdjeM6fT313
+!i122 0
+l43
+L11 42
+V]NhbaJQ>n6ccL[lB10hHh3
+!s100 c750bkJMlJ2VFM<2XH2]]0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eff_d
+Z13 w1621177960
+R2
+R3
+!i122 1
+R0
+Z14 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/FF_D.vhd
+Z15 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/FF_D.vhd
+l0
+L4 1
+Vca6<_G]zY@]2DObe_;Ic_2
+!s100 J3hADbbG^1QNjR^zD6Y]`1
+R6
+31
+R7
+!i10b 1
+Z16 !s108 1621179089.000000
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/FF_D.vhd|
+Z18 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/FF_D.vhd|
+!i113 1
+R11
+R12
+Acomportamento_ff_d
+R2
+R3
+DEx4 work 4 ff_d 0 22 ca6<_G]zY@]2DObe_;Ic_2
+!i122 1
+l15
+L13 20
+V`H_bMT6K5GVJLg>:LQgfK0
+!s100 PDlRfWz717A7S<UmjhiZV3
+R6
+31
+R7
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R11
+R12
+Eff_d_serie
+Z19 w1621178172
+R2
+R3
+!i122 2
+R0
+Z20 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/FF_D_Serie.vhd
+Z21 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/FF_D_Serie.vhd
+l0
+L4 1
+VPlOemSFaELn[KHd3CX?Z72
+!s100 FJX]KHFLEgom9iPdP[XQE3
+R6
+31
+R7
+!i10b 1
+R16
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/FF_D_Serie.vhd|
+Z23 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/FF_D_Serie.vhd|
+!i113 1
+R11
+R12
+Acomportamento_ff_d_serie
+R2
+R3
+DEx4 work 10 ff_d_serie 0 22 PlOemSFaELn[KHd3CX?Z72
+!i122 2
+l29
+L14 26
+V^=9ESBOO@jA=eEmWLnOlF0
+!s100 z]J5cJ7[aHQ9aQ_6NH;zo2
+R6
+31
+R7
+!i10b 1
+R16
+R22
+R23
+!i113 1
+R11
+R12
+Eporta_nand
+Z24 w1621177210
+R2
+R3
+!i122 3
+R0
+Z25 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/porta_NAND.vhd
+Z26 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/porta_NAND.vhd
+l0
+L6 1
+VCOa25aEAQdc`0oE]:?ZoH3
+!s100 @cYTF[372Vi3gDP:O?jW60
+R6
+31
+R7
+!i10b 1
+R16
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/porta_NAND.vhd|
+Z28 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/porta_NAND.vhd|
+!i113 1
+R11
+R12
+Acomport_porta_nand
+R2
+R3
+DEx4 work 10 porta_nand 0 22 COa25aEAQdc`0oE]:?ZoH3
+!i122 3
+l15
+L13 6
+Vanma3jI`QbHC_Od1Ra7<b1
+!s100 R@G@@kEMBQRa3E]on0gLk3
+R6
+31
+R7
+!i10b 1
+R16
+R27
+R28
+!i113 1
+R11
+R12
+Eporta_not
+Z29 w1621177248
+R2
+R3
+!i122 4
+R0
+Z30 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/porta_NOT.vhd
+Z31 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/porta_NOT.vhd
+l0
+L6 1
+VQK=z][dH97h`Tj?;ZcWb33
+!s100 9Ol6Ff8X9U?Zo6jCe[f@21
+R6
+31
+Z32 !s110 1621179090
+!i10b 1
+R16
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/porta_NOT.vhd|
+Z34 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/porta_NOT.vhd|
+!i113 1
+R11
+R12
+Ainversor
+R2
+R3
+DEx4 work 9 porta_not 0 22 QK=z][dH97h`Tj?;ZcWb33
+!i122 4
+l15
+L13 7
+V;DeS<>^]N]mMMHn<L_:V12
+!s100 NMeo_Zoi<TnJWbZlzj?S03
+R6
+31
+R32
+!i10b 1
+R16
+R33
+R34
+!i113 1
+R11
+R12
+Eporta_or
+Z35 w1621177280
+R2
+R3
+!i122 5
+R0
+Z36 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/porta_OR.vhd
+Z37 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/porta_OR.vhd
+l0
+L4 1
+V:JI_O<E0FRWo?CZ[XM82S0
+!s100 @XV3Z:8=mT0ee62U<WW3i3
+R6
+31
+R32
+!i10b 1
+Z38 !s108 1621179090.000000
+Z39 !s90 -reportprogress|300|-93|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/porta_OR.vhd|
+Z40 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/porta_OR.vhd|
+!i113 1
+R11
+R12
+Acomport_porta_or
+R2
+R3
+DEx4 work 8 porta_or 0 22 :JI_O<E0FRWo?CZ[XM82S0
+!i122 5
+l12
+L10 7
+V:WFV8J=9m>mz5Ym63VWH02
+!s100 @^mZfgmMCl:n5S`g4jo7Q2
+R6
+31
+R32
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R11
+R12
+Eteste_bench_circuito_d2
+Z41 w1621178794
+R2
+R3
+!i122 6
+R0
+Z42 8C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/teste_bench_Circuito_D2.vhd
+Z43 FC:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/teste_bench_Circuito_D2.vhd
+l0
+L4 1
+VJPdoIf[1XSjog0KQ1TlZ83
+!s100 VP;PYS4[^N7VJkF8:OJYj0
+R6
+32
+Z44 !s110 1621179151
+!i10b 1
+Z45 !s108 1621179151.000000
+Z46 !s90 -reportprogress|300|-work|work|C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/teste_bench_Circuito_D2.vhd|
+!s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/teste_bench_Circuito_D2.vhd|
+!i113 1
+Z47 o-work work
+R12
+Atb_circuito_d2
+R2
+R3
+DEx4 work 23 teste_bench_circuito_d2 0 22 JPdoIf[1XSjog0KQ1TlZ83
+!i122 6
+l24
+L7 109
+VV4_4_QBKYQ3VS5VB@GKYN2
+!s100 8fW;flU<Mk22QM1[4T]JC0
+R6
+32
+R44
+!i10b 1
+R45
+R46
+Z48 !s107 C:/Users/foxpc/Documents/Disciplinas falcudade/2020/Sistemas Digitais/Quartus/Circuito D2 final/teste_bench_Circuito_D2.vhd|
+!i113 1
+R47
+R12
